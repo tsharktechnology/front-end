@@ -2,9 +2,75 @@
 <html lang="pt-br">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Uso de JQuery</title>
+
+
+	<script type="text/javascript" src="../js/jquery.js"></script>
+
+	<script type="text/javascript">
+		/* Para usar a biblioteca de JQuery, é necessário usar um caracter especial para fazer a chamada:($) ou JQuery
+		*/
+
+		$(document).ready(function(){
+
+			$('#principal').append('<p>Texto Novo</p>');
+			$('#primeiro').click(function(){
+
+				$('div').append('<h2> Estou Aqui!</h2>');
+			});
+
+		});		
+
+
+
+	</script>
+
 </head>
+
+
 <body>
-	
+
+	<header>
+		
+		<h1>Página com JQuery</h1>
+
+	</header>
+
+
+	<main>
+		
+		
+			
+
+		<section id="principal">
+
+			<div>
+
+					<button id="primeiro">Primeiro</button> <br>
+
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ullam quod aliquid dolores veritatis dignissimos voluptate est perferendis tenetur sint error iste, reprehenderit eligendi ea deleniti, necessitatibus ipsam veniam cupiditate.</div>
+				<div>Neque facilis itaque quam sequi iure inventore optio debitis dolorem in, quod eum, ullam eos quis magnam sint cumque dolores delectus esse unde ea, eveniet sunt! Ea repellat adipisci, a!</div>
+				<div>Magnam iure blanditiis quod autem maxime a nobis aliquid ipsam, aspernatur aliquam dolorum veniam voluptas, nisi ab magni earum quibusdam consequatur. Nulla adipisci eligendi amet quibusdam ipsa magni voluptatem itaque.</div>
+			</div>
+			<div>
+				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, asperiores dolores blanditiis reprehenderit repellat cumque tempore. Dolor temporibus, labore culpa quae rem molestias sequi accusantium, soluta pariatur, impedit minima ad.</div>
+				<div>Perferendis dolores ipsum atque rem, amet perspiciatis alias aspernatur ipsam, deserunt velit repudiandae, aliquam eveniet error, consectetur vel. Expedita quaerat illum assumenda eligendi odio porro delectus, optio numquam, laborum maiores!</div>
+				<div>Dolor doloremque at doloribus enim tempora molestiae, magnam excepturi error sapiente temporibus iure voluptas voluptates aspernatur ducimus sed officiis impedit iste necessitatibus quo est repellendus quibusdam officia explicabo sint magni.</div>
+			</div>
+		</section>
+
+
+		
+
+
+
+	</main>
+
+
 </body>
+
+
+
+
+
 </html>
